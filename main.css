@@ -1,3 +1,24 @@
 h1 {
   color: pink;
 }
+
+.headerImage {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.largeImage {
+  max-height: 100%;
+}
+
+.aboutBody {
+  width: 100vw;
+  height: 100vh;
+  padding: 40px;
+}
+
+.aboutHeader {
+  height: 10vh;
+  font-size: 20px;
+}
