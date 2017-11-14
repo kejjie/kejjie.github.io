@@ -1,24 +1,49 @@
-h1 {
-  color: pink;
+.col {
+  padding: 0;
 }
 
-.headerImage {
-  width: 100vw;
-  height: 100vh;
-  text-align: center;
+.col img {
+  width: 100%;
 }
 
-.largeImage {
-  max-height: 100%;
-}
-
-.aboutBody {
-  width: 100vw;
-  height: 100vh;
+.sectionBody {
   padding: 40px;
 }
 
-.aboutHeader {
-  height: 10vh;
-  font-size: 20px;
+.productBody {
+  text-align: center;
+  padding-left: 15vw;
+  padding-right:15vw;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.headerContainer {
+  padding: 0 40px;
+}
+
+.tofuImage {
+  display: inline-block;
+}
+
+.tofuImage img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.tofuDescription {
+  text-align: left;
+  padding: 40px 20px;
+  display: inline-block;
+}
+
+.footerSocial {
+  height: 5vh;
+  width: 100%;
+  margin: 40px;
+  text-align: center;
+}
+
+.socialButton {
+  max-height: 100%;
 }
