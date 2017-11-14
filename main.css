@@ -1,3 +1,30 @@
+#logoContainer {
+  position: relative;
+}
+
+#logo {
+  z-index: 2;
+  margin-left: 40px;
+  position: absolute;
+  bottom: -10px;
+}
+
+#col-navlink1 {
+  padding-top: 5vw;
+}
+
+#col-navlink2 {
+  padding-top: 5vw;
+}
+
+#col-navlink3 {
+  padding-top: 5vw;
+}
+
+#col-navlink4 {
+  padding-top: 5vw;
+}
+
 .col {
   padding: 0;
 }
