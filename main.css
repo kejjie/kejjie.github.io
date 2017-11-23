@@ -8,6 +8,14 @@
   src: url("assets/GeosansLight.ttf");
 }
 
+p {
+  margin-bottom: 0;
+}
+
+#navigationBar {
+  max-height: 70px;
+}
+
 #logoContainer {
   position: relative;
 }
@@ -19,43 +27,47 @@
   bottom: -10px;
 }
 
+#logoImage {
+  width: 70px;
+}
+
 #col-navlink1 {
-  padding-top: 5vw;
+  padding-top: 20px;
 }
 
 #col-navlink1 a {
   font-family: "GeoSansLight";
-  font-size: 2vw;
+  font-size: 35px;
   color: grey;
 }
 
 #col-navlink2 {
-  padding-top: 5vw;
+  padding-top: 20px;
 }
 
 #col-navlink2 a {
   font-family: "GeoSansLight";
-  font-size: 2vw;
+  font-size: 35px;
   color: grey;
 }
 
 #col-navlink3 {
-  padding-top: 5vw;
+  padding-top: 20px;
 }
 
 #col-navlink3 a {
   font-family: "GeoSansLight";
-  font-size: 2vw;
+  font-size: 35px;
   color: grey;
 }
 
 #col-navlink4 {
-  padding-top: 5vw;
+  padding-top: 20px;
 }
 
 #col-navlink4 a {
   font-family: "GeoSansLight";
-  font-size: 2vw;
+  font-size: 35px;
   color: grey;
 }
 
@@ -69,12 +81,12 @@
 
 .sectionHeader {
   font-family: "TheLightFont";
-  font-size: 2vw;
+  font-size: 30px;
   padding: 0 20px;
 }
 
 .sectionHeader p {
-    margin-bottom: -1rem;
+  margin-bottom: -1rem;
 }
 
 .sectionBody {
@@ -89,7 +101,7 @@
 
 .ourStory {
   font-family: "TheLightFont";
-  font-size: 2vw;
+  font-size: 20px;
 }
 
 .productBody {
@@ -102,18 +114,22 @@
 
 #mapo {
   color: #ff8383;
+  margin-bottom: -1rem
 }
 
 #homestyle {
   color:  #4cce4c;
+  margin-bottom: -1rem
 }
 
 #vietnamese {
   color: #237bff;
+  margin-bottom: -1rem
 }
 
 #kungpao {
   color: #dfb300;
+  margin-bottom: -1rem
 }
 
 .headerContainer {
@@ -130,32 +146,134 @@
 }
 
 #tofuDescription1 {
-  padding-top: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: left;
 }
 
 #tofuDescription2 {
-  padding-top: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: right;
 }
 
 #tofuDescription3 {
-  padding-top: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: left;
 }
 
 #tofuDescription4 {
-  padding-top: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: right;
 }
 
 .footerSocial {
   height: 5vh;
   width: 100%;
-  margin: 40px;
-  text-align: center;
+  margin-bottom: 40px;
+  margin-left: 60px;
+  margin-top: -30px;
 }
 
 .socialButton {
-  max-height: 100%;
+  max-height: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  #navigationBar {
+    padding-right: 15px;
+  }
+
+  #logo {
+    bottom: -4px;
+  }
+
+  #logoImage {
+    width: 35px;
+  }
+
+  #col-navlink1 {
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  #col-navlink1 a {
+    font-family: "GeoSansLight";
+    font-size: 20px;
+    color: grey;
+  }
+
+  #col-navlink2 {
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  #col-navlink2 a {
+    font-family: "GeoSansLight";
+    font-size: 20px;
+    color: grey;
+  }
+
+  #col-navlink3 {
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  #col-navlink3 a {
+    font-family: "GeoSansLight";
+    font-size: 20px;
+    color: grey;
+  }
+
+  #col-navlink4 {
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  #col-navlink4 a {
+    font-family: "GeoSansLight";
+    font-size: 20px;
+    color: grey;
+  }
+
+  .sectionHeader {
+    font-size: 15px;
+  }
+
+  .sectionHeader p {
+    margin-bottom: -12px;
+  }
+
+  .sectionText {
+    font-size: 12px;
+  }
+
+  .ourStory {
+    font-family: "TheLightFont";
+    font-size: 12px;
+  }
+
+  #mapo {
+    margin-bottom: -30px;
+  }
+
+  #homestyle {
+    margin-bottom: -30px;
+  }
+
+  #vietnamese {
+    margin-bottom: -30px;
+  }
+
+  #kungpao {
+    margin-bottom: -30px;
+  }
+
 }
