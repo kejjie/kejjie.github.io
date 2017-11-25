@@ -136,15 +136,6 @@ p {
   padding: 0 40px;
 }
 
-.tofuImage {
-  display: inline-block;
-}
-
-.tofuImage img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
 #tofuDescription1 {
   display: flex;
   flex-direction: column;
@@ -193,10 +184,11 @@ p {
 
   #logo {
     bottom: -4px;
+    margin-left: 30px;
   }
 
   #logoImage {
-    width: 35px;
+    width: 30px;
   }
 
   #col-navlink1 {
@@ -206,7 +198,7 @@ p {
 
   #col-navlink1 a {
     font-family: "GeoSansLight";
-    font-size: 20px;
+    font-size: 15px;
     color: grey;
   }
 
@@ -217,7 +209,7 @@ p {
 
   #col-navlink2 a {
     font-family: "GeoSansLight";
-    font-size: 20px;
+    font-size: 15px;
     color: grey;
   }
 
@@ -228,7 +220,7 @@ p {
 
   #col-navlink3 a {
     font-family: "GeoSansLight";
-    font-size: 20px;
+    font-size: 15px;
     color: grey;
   }
 
@@ -239,7 +231,7 @@ p {
 
   #col-navlink4 a {
     font-family: "GeoSansLight";
-    font-size: 20px;
+    font-size: 15px;
     color: grey;
   }
 
@@ -261,19 +253,131 @@ p {
   }
 
   #mapo {
-    margin-bottom: -30px;
+    margin-bottom: -25px;
+    padding: 0;
+    padding-left: 15px;
+    font-size: 13px;
   }
 
   #homestyle {
-    margin-bottom: -30px;
+    margin-bottom: -25px;
+    padding: 0;
+    padding-right: 15px;
+    font-size: 13px;
   }
 
   #vietnamese {
-    margin-bottom: -30px;
+    margin-bottom: -25px;
+    padding: 0;
+    padding-left: 15px;
+    font-size: 13px;
   }
 
   #kungpao {
-    margin-bottom: -30px;
+    margin-bottom: -25px;
+    padding: 0;
+    padding-right: 15px;
+    font-size: 13px;
   }
 
+  #mapoImage {
+    width: 125px;
+    margin-right: -40px;
+  }
+
+  #homestyleImage {
+    width: 125px;
+    margin-left: -40px;
+  }
+
+  #vietnameseImage {
+    width: 125px;
+    margin-right: -40px;
+  }
+
+  #kungpaoImage {
+    width: 125px;
+    margin-left: -40px;
+  }
+
+  #mapoText {
+    padding: 0;
+    padding-left: 15px;
+    line-height: 12px;
+  }
+
+  #homestyleText {
+    padding: 0;
+    padding-right: 15px;
+    line-height: 12px;
+  }
+
+  #vietnameseText {
+    padding: 0;
+    padding-left: 15px;
+    line-height: 12px;
+  }
+
+  #kungpaoText {
+    padding: 0;
+    padding-right: 15px;
+    line-height: 12px;
+  }
+
+  .sectionBody {
+    padding: 15px;
+  }
+
+  .productBody {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .headerContainer {
+    padding: 0 15px;
+  }
+
+  #mapoRow {
+    padding: 0 15px;
+  }
+
+  #homestyleRow {
+    padding: 0 15px;
+  }
+
+  #vietnameseRow {
+    padding: 0 15px;
+  }
+
+  #kungpaoRow {
+    padding: 0 15px;
+  }
+
+  #tofuDescription1 {
+  padding-right: 15px;
+}
+
+#tofuDescription2 {
+  padding-left: 15px;
+}
+
+#tofuDescription3 {
+  padding-right: 15px;
+}
+
+#tofuDescription4 {
+  padding-left: 15px;
+}
+
+.footerSocial {
+  width: 100%;
+  margin: 0;
+  margin-left: 30px;
+  margin-top: -15px;
+  height: 25px;
+}
+
+.socialButton {
+  max-height: 100%;
+}
 }
